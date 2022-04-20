@@ -59,5 +59,13 @@ for key, val in home_town.items():
 #  }
 # Iterate over cohort printing out each element.
 
+cohort = []
+
+for name in students:
+    cohort.append({"name": name, "favorite food": "Cheeseburger"})
+
+print(f"Exercise 6: {cohort}")
+
+
 
 
