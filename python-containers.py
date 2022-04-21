@@ -73,7 +73,9 @@ for student in cohort:
 # ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
 # Iterate over awesome_students printing out each string.
 
+awesome_students = [f"{student} is awesome!" for student in students]
 
+print(f"Exercise 7: {awesome_students}")
 
 
 
