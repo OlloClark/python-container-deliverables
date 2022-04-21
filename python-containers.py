@@ -83,9 +83,4 @@ print(f"Exercise 7: {awesome_students}")
 
 a_foods = [f"{food}" for food in foods if "a" in food]
 
-print(a_foods)
-
-
-
-
-
+print(f"Exercise 8: {a_foods}")
