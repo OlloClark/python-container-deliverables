@@ -12,7 +12,7 @@ print(f"Exercise 1: second student: {students[1]}, last student: {students[-1]}"
 # Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
 # Use a for loop to print out the string "food goes here is a good food".
 
-foods = ("spaghetti", "sushi", "a burrito", "a curry")
+foods = ("spaghetti", "pizza", "a burrito", "a curry")
 
 for food in foods:
     print(f"Exercise 2: {food} is a good food")
@@ -61,10 +61,18 @@ for key, val in home_town.items():
 
 cohort = []
 
-for name in students:
-    cohort.append({"name": name, "favorite food": "Cheeseburger"})
+for index, name in enumerate(students):
+    cohort.append({"name": name, "fav_food": foods[index]})
 
-print(f"Exercise 6: {cohort}")
+for student in cohort:
+    print(f"Exercise 6: {student}")
+
+# Exercise 7
+# Using the list of students and list comprehension, assign to a variable named awesome_students a new list 
+# containing strings similar to this:
+# ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
+# Iterate over awesome_students printing out each string.
+
 
 
 
